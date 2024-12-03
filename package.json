@@ -1,0 +1,21 @@
+{
+ "scripts": {
+  "dev": "nodemon app.js",
+  "start": "node app.js"
+ },
+ "dependencies": {
+  "cors": "^2.8.5",
+  "dotenv": "^16.0.0",
+  "express": "^4.18.1",
+  "express-jwt": "6.1",
+  "express-jwt-authz": "^2.4.1",
+  "express-openid-connect": "^2.7.2",
+  "jsonwebtoken": "^8.5.1",
+  "jwks-rsa": "^2.1.2",
+  "mongoose": "^6.3.1",
+  "slugify": "^1.6.5"
+ },
+ "devDependencies": {
+  "nodemon": "^2.0.16"
+ }
+}
